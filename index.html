@@ -3,10 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pasta la Vista</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-  
+    <header>
+        <div class="container header-content">
+            <h1>Pasta la Vista</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Reservations</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <img src="img/featured.png" alt="Featured Italian Dish">
+        <div class="hero-text">
+            <h2>Disappearing soon, but unforgettable.</h2>
+            <p>Authentic Italian flavors, fleeting moments. Join us before we're gone!</p>
+        </div>
+    </section>
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Featured Dishes</h2>
+            <div class="dishes">
+                <div class="dish">
+                    <h3>Tagliatelle al Tartufo</h3>
+                    <p>Fresh tagliatelle tossed with black truffle and parmesan.</p>
+                </div>
+                <div class="dish">
+                    <h3>Risotto alla Milanese</h3>
+                    <p>Creamy saffron risotto finished with aged pecorino.</p>
+                </div>
+                <div class="dish">
+                    <h3>Tiramisu Classico</h3>
+                    <p>Traditional tiramisu layered with espresso-soaked ladyfingers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Reserve Your Table</h2>
+            <p>Seats vanish as quickly as our pop-up. Book now!</p>
+            <button onclick="window.location.href='#'">Reserve Now</button>
+        </div>
+    </section>
 </body>
 </html>
